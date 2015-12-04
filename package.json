@@ -1,27 +1,60 @@
 {
   "name": "ploy.io",
   "version": "0.0.1",
-  "description": "Deploy to the web.",
-  "main": "index.js",
-  "scripts": {
-    "test": "cake start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zeekay/ploy.io.git"
-  },
+  "description": "Deploy static sites with ease.",
+  "homepage": "http://github.com/zeekay/ploy.io",
+  "bugs": "http://github.com/ploy.io/issues",
   "keywords": [
+    "cdn",
     "deploy",
-    "deployment",
     "ploy",
     "ploy.io",
-    "cdn",
-    "static"
+    "publishing",
+    "static site"
   ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zeekay/ploy.io/issues"
+  "main": "bin/ploy",
+  "engines": {
+    "node": ">=4.0.0"
   },
-  "homepage": "https://github.com/zeekay/ploy.io#readme"
+  "scripts": {
+    "prepublish": "cake build",
+    "test": "cake build && cake test"
+  },
+  "author": "Zach Kelling <zk@crowdstart.com> (http://zeekay.io)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zeekay/ploy.io/blob/master/LICENSE"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zeekay/ploy.io"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "co-mocha": "^1.1.2",
+    "codecov.io": "^0.1.6",
+    "coffee-script": "^1.9.1",
+    "connect": "^3.4.0",
+    "coveralls": "^2.11.4",
+    "debug": "^2.2.0",
+    "es5-shim": "^4.1.13",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "mocha-lcov-reporter": "^1.0.0",
+    "moment": "^2.10.6",
+    "nightmare": "^2.0.8",
+    "postmortem": "^0.2.3",
+    "random-token": "0.0.8",
+    "requisite": "^1.14.0",
+    "serve-static": "^1.10.0",
+    "shortcake": "^1.1.7",
+    "uglify-js": "^2.6.1"
+  },
+  "dependencies": {
+    "crowdstart.js": "^2.2.3"
+  }
 }
