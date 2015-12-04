@@ -1,0 +1,27 @@
+{
+  "name": "ploy.io",
+  "version": "0.0.1",
+  "description": "Deploy to the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cake start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeekay/ploy.io.git"
+  },
+  "keywords": [
+    "deploy",
+    "deployment",
+    "ploy",
+    "ploy.io",
+    "cdn",
+    "static"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeekay/ploy.io/issues"
+  },
+  "homepage": "https://github.com/zeekay/ploy.io#readme"
+}
