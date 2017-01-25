@@ -1,5 +1,7 @@
 # Crowdstart.js  [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![NPM version][npm-image]][npm-url]  [![Gitter chat][gitter-image]][gitter-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zeekay/ploy.io.svg)](https://greenkeeper.io/)
+
 <!-- [![Downloads][downloads-image]][downloads-url] -->
 Crowdstart.js is a complete Ecommerce SDK for JavaScript and client for
 [Crowdstart][crowdstart]. With Crowdstart.js you can:
