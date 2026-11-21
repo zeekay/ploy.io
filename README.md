@@ -1,5 +1,7 @@
 # Crowdstart.js  [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![NPM version][npm-image]][npm-url]  [![Gitter chat][gitter-image]][gitter-url]
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zeekay/ploy.io&ref=master&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zeekay/ploy.io&ref=master&action=edit)
+
 <!-- [![Downloads][downloads-image]][downloads-url] -->
 Crowdstart.js is a complete Ecommerce SDK for JavaScript and client for
 [Crowdstart][crowdstart]. With Crowdstart.js you can:
